@@ -1,0 +1,26 @@
+$cor1 : #FF5E3A;
+$cor2 : #FFBE3B;
+
+
+$theme-colors:(
+	"cor1" : $cor1,
+	"cor2" : $cor2
+);
+
+body{
+	overflow-x: hidden;
+}
+
+#banner1{
+	color: #fff;
+	background-image: url('../img/banner1.jpg');
+	background-size: cover;
+	min-height: 500px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
